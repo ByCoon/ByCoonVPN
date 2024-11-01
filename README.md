@@ -9,8 +9,8 @@ ByCoon VPN is a Android OpenVPN Client that has been developed using [ics-openvp
 * You can keep .ovpn files on your server or in the app assets folder and load them when needed.
 
 ## Future Developments
-*UI/UX Improvements
-*Adding Wireguard protocol support.
+* UI/UX Improvements
+* Adding Wireguard protocol support.
 
 ## License
 ByCoon VPN is under GNUv3 license and is based on [ics-openvpn](https://github.com/schwabe/ics-openvpn) project which uses GNUv2 license.
