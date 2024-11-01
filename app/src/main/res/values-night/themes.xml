@@ -1,0 +1,16 @@
+<resources>
+    <style name="Base.Theme.VpnApp" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">@color/background_color</item>
+        <item name="android:navigationBarColor">@color/background_color</item>
+        <item name="colorPrimary">@color/blue_color</item>
+        <item name="colorPrimaryVariant">@color/background_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/background_color</item>
+        <item name="colorSecondaryVariant">@color/background_color</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+</resources>

@@ -1,0 +1,57 @@
+<resources>
+    <style name="Base.Theme.VpnApp" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">@color/background_color</item>
+        <item name="android:navigationBarColor">@color/background_color</item>
+        <item name="colorPrimary">@color/blue_color</item>
+        <item name="colorPrimaryVariant">@color/background_color</item>
+        <item name="colorOnPrimary">@color/background_color</item>
+        <item name="colorSecondary">@color/background_color</item>
+        <item name="colorSecondaryVariant">@color/background_color</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+    <style name="Theme.VpnApp" parent="Base.Theme.VpnApp" />
+    <style name="blinkt.dialog" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Custom" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorPrimary">@color/icon_bg_color</item>
+        <item name="colorSecondary">@color/blue_color</item>
+        <item name="colorSurface">@color/icon_bg_color</item>
+        <item name="colorOnSurface">@color/icon_bg_color</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/Title</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/Body</item>
+        <item name="android:checkedTextViewStyle">@style/Body</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButton</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButton</item>
+        <item name="buttonBarNeutralButtonStyle">@style/NegativeButton</item>
+    </style>
+    <style name="Title" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="fontFamily">@font/bold</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="Body" parent="MaterialAlertDialog.Material3.Body.Text">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="fontFamily">@font/light</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="NegativeButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="fontFamily">@font/light</item>
+        <item name="textAllCaps">false</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
+    </style>
+    <style name="PositiveButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="fontFamily">@font/medium</item>
+        <item name="textAllCaps">false</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
+    </style>
+    <style name="ThemeOverlay.App.Button" parent="">
+        <item name="colorPrimary">@color/text_color</item>
+    </style>
+</resources>
